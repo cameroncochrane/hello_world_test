@@ -20,8 +20,10 @@ class Person():
 person_1 = Person(forename="Cameron")
 
 person_1.age = "25"
+person_1.surname = "Cochrane"
+person_1.title = "Mr"
 
-print(person_1.age)
+person_1.say_full_name()
 
     
 
