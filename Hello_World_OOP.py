@@ -16,14 +16,21 @@ class Person():
     def occupation(self):
         print("I'm a %s." % (self.occupation))
     
+    def full_list(self):
+        print("Forename:%s" % self.forename)
+        print("Surname:%s" % self.surname)
+        print("Title:%s" % self.title)
+        print("Occupation:%s" % self.occupation)
+        print("Age:%s" % self.age)
 
 person_1 = Person(forename="Cameron")
 
 person_1.age = "25"
 person_1.surname = "Cochrane"
 person_1.title = "Mr"
+person_1.occupation = "Student"
 
-person_1.say_full_name()
+person_1.full_list()
 
     
 
